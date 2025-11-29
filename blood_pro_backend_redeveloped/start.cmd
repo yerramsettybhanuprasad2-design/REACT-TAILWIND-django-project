@@ -1,2 +1,0 @@
-\
-@echo off\necho Run backend and frontend development servers\nstart cmd /k "cd backend && python -m venv venv && venv\Scripts\activate && pip install -r requirements.txt && python manage.py migrate && python manage.py runserver"\nstart cmd /k "cd frontend && npm install && npm run dev"\n
