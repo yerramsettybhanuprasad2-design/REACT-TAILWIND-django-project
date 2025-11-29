@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+@layer base {
+  body { @apply bg-gradient-to-b from-white to-gray-50 font-sans text-gray-800; }
+  h1,h2,h3,h4 { @apply font-extrabold; }
+}
